@@ -3,9 +3,9 @@ using SD7501Lab1.Models;
 
 namespace SD7501Lab1.Data
 {
-    public class ApplicationDbContext :DbContext
+    public class BulkyDbContext :DbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+        public BulkyDbContext(DbContextOptions<BulkyDbContext> options) : base(options)
         {
 
         }

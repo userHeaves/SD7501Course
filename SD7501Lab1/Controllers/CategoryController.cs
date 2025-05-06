@@ -6,8 +6,8 @@ namespace SD7501Lab1.Controllers
 {
     public class CategoryController : Controller
     {
-        private readonly ApplicationDbContext _db;
-        public CategoryController(ApplicationDbContext db)
+        private readonly BulkyDbContext _db;
+        public CategoryController(BulkyDbContext db)
         {
             _db = db;
         }
